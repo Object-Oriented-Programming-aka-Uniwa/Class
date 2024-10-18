@@ -15,7 +15,7 @@ This repository contains a C++ implementation of a `Student` class. The class en
 ---
 
 ## Course Information
-- **Course**: Objected Oriented Programming
+- **Course**: [Objected Oriented Programming](https://ice.uniwa.gr/education/undergraduate/courses/object-oriented-programming/)
 - **Semester**: 2
 - **Program**: [UNIWA](https://www.uniwa.gr/)
 - **Department**: [Informatics and Computer Engineering](https://ice.uniwa.gr/)
