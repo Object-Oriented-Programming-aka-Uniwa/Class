@@ -8,6 +8,11 @@
   DEPARTMENT OF COMPUTER ENGINEERING AND INFORMATICS
 </p>
 
+<p align="center">
+  <a href="https://www.uniwa.gr" target="_blank">University of West Attica</a> ·
+  <a href="https://ice.uniwa.gr" target="_blank">Department of Computer Engineering and Informatics</a>
+</p>
+
 ---
 
 <p align="center">
@@ -43,7 +48,6 @@
   <a href="https://www.linkedin.com/in/cleo-sgouropoulou-51683525/" target="_blank">LinkedIn</a>
 </p>
 
-
 <p align="center">
   Co-supervisor: Georgios Meletiou, Laboratory Teaching Staff<br>
 </p>
@@ -54,13 +58,23 @@
 
 </hr>
 
+---
+
 <p align="center">
   Athens, May 2022
 </p>
 
 ---
 
-# Introduction to C++ Classes - Student Class Implementation
+<p align="center">
+  <img src="https://grandidierite.github.io/assets/img/cppclasses.jpg" width="250"/>
+</p>
+
+---
+
+# README
+
+## Introduction to C++ Classes
 
 This repository contains a **C++ implementation of a `Student` class**. The class encapsulates attributes related to a student's academic information and provides methods to manipulate and display this information. The implementation demonstrates **object-oriented programming (OOP) concepts**, including attributes, methods, access modifiers, constructors, destructors, and operator overloading.
 
@@ -68,20 +82,20 @@ This repository contains a **C++ implementation of a `Student` class**. The clas
 
 ## Table of Contents
 
-| Section | Folder/File | Description |
-|------:|-------------|-------------|
-| 1 | `assign/` | Assignment material for the Class workshop |
-| 1.1 | `assign/Exercise2.png` | Exercise description in English |
-| 1.2 | `assign/Άσκηση2.png` | Exercise description in Greek |
-| 2 | `src/` | Source code files for class-based exercises |
-| 2.1 | `src/main.cpp` | Main C++ program |
-| 2.2 | `src/STUDENT.cpp` | Implementation of the STUDENT class |
-| 2.3 | `src/STUDENT.h` | Header file for the STUDENT class |
-| 3 | `README.md` | Repository overview and usage instructions |
+| Section | Folder/File            | Description                                 |
+| ------: | ---------------------- | ------------------------------------------- |
+|       1 | `assign/`              | Assignment material for the Class workshop  |
+|     1.1 | `assign/Exercise2.png` | Exercise description in English             |
+|     1.2 | `assign/Άσκηση2.png`   | Exercise description in Greek               |
+|       2 | `src/`                 | Source code files for class-based exercises |
+|     2.1 | `src/main.cpp`         | Main C++ program                            |
+|     2.2 | `src/STUDENT.cpp`      | Implementation of the STUDENT class         |
+|     2.3 | `src/STUDENT.h`        | Header file for the STUDENT class           |
+|       3 | `README.md`            | Repository overview and usage instructions  |
 
 ---
 
-## Project Overview
+## 1. Project Overview
 
 The program allows:
 
@@ -92,57 +106,32 @@ The program allows:
 
 ---
 
-## Class Features
+## 2. Class Features
 
-### Attributes
+### 2.1 Attributes
+
 The `Student` class contains the following private attributes:
 
-- **AM (char \*)**: Student registration number  
-- **First Name (string)**: Student’s first name  
-- **Current Semester (unsigned int)**: Current semester of the student  
+- **AM (char \*)**: Student registration number
+- **First Name (string)**: Student’s first name
+- **Current Semester (unsigned int)**: Current semester of the student
 
-### Constructors
+### 2.2 Constructors
+
 The class supports multiple constructors:
 
-1. **AM & First Name Constructor**: Initializes registration number and first name; current semester set to 1  
-2. **Full Constructor**: Initializes all attributes with provided values  
+1. **AM & First Name Constructor**: Initializes registration number and first name; current semester set to 1
+2. **Full Constructor**: Initializes all attributes with provided values
 3. **Copy Constructor**: Initializes a new `Student` object using another `Student` object
 
-### Methods
-- **Getters & Setters**: Retrieve and modify attribute values  
-- **Print**: Displays all attributes in one line to any output stream  
+### 2.3 Methods
+
+- **Getters & Setters**: Retrieve and modify attribute values
+- **Print**: Displays all attributes in one line to any output stream
 - **IncreaseSemester**: Increments the current semester by 1
 
 ---
 
-## Requirements
-
-- **C++ Compiler:** G++ or any standard C++ compiler  
-- **Operating System:** Linux / Windows / MacOS  
-- **Development Environment:** Command Line or IDE  
-
----
-
-## Installation & Usage
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/Object-Oriented-Programming-aka-Uniwa/Class.git
-cd Class
-```
-
-### 2. Compile
-```bash
-g++ -o Class STUDENT.cpp main.cpp
-```
-
-### 3. Run
-```bash
-./Class
-```
-
----
-
-## Conclusion
+## 3. Conclusion
 
 This project demonstrates fundamental OOP concepts in C++ through a practical example of managing student information, highlighting encapsulation, constructors, dynamic memory handling, and method implementation.
