@@ -91,7 +91,8 @@ This repository contains a **C++ implementation of a `Student` class**. The clas
 |     2.1 | `src/main.cpp`         | Main C++ program                            |
 |     2.2 | `src/STUDENT.cpp`      | Implementation of the STUDENT class         |
 |     2.3 | `src/STUDENT.h`        | Header file for the STUDENT class           |
-|       3 | `README.md`            | Repository overview and usage instructions  |
+|       3 | `README.md`            | Project documentation                       |
+|       4 | `INSTALL.md`           | Usage instructions                          |
 
 ---
 
